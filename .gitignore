@@ -1,0 +1,35 @@
+# === C++ Build Artifacts ===
+# Ignore the entire build directory where executables live
+build/
+
+# Ignore any standalone compiled binaries or object files
+*.out
+*.o
+*.obj
+*.exe
+
+# === macOS System Files ===
+# General macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Files that might be created if you use an external drive/network
+.DocumentRevisions-V1-1
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# === IDE & Editor Specifics ===
+# Zed-specific (if any local settings are created)
+.zed/
+.clang-format
+
+# VS Code settings (if you use it later)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
