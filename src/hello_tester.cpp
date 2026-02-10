@@ -1,22 +1,9 @@
 /*
- * === Hello Tester ===
- *
  * File:    hello_tester.cpp
  * Author:  Ashish Rai
  * Date:    10 Februrary 2026
  *
- * Description:
- * Program to check whether the compiler is working properly.
- *
- * Compile and Execute (Manual):
- * mkdir -p ./build && \
- * clang++ -std=c++20 ./src/tester.cpp -o ./build/tester && \
- * ./build/tester
- *
- * Make (Recommended):
- * make run file=hello_tester.cpp
- * make clean
- *
+ * Program to test whether the compiler is working properly.
  */
 
 #include <iostream>
