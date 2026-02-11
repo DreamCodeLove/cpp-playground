@@ -4,6 +4,9 @@
  * Date:    10 February 2026
  *
  * Program to demonstrate the basics of the Arrays data structure.
+ *
+ * This code is UNLICENSED (public domain).
+ * See UNLICENSE file for details.
  */
 
 #include <iomanip>  // setw()
